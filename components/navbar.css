@@ -133,6 +133,7 @@
 }
 @media(max-width: 479px) {
   .navbar-burger-menu {
+    display: none;
     margin-left: var(--dl-space-space-doubleunit);
   }
 }

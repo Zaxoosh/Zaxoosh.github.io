@@ -133,6 +133,7 @@
 }
 @media(max-width: 479px) {
   .navbar-burger-menu {
+    display: none;
     margin-left: var(--dl-space-space-doubleunit);
   }
 }
@@ -223,7 +224,7 @@
   text-align: center;
   transition: 0.3s;
   padding-top: var(--dl-space-space-doubleunit);
-  margin-right: var(--dl-space-space-fourunits);
+  margin-right: 0px;
   padding-left: var(--dl-space-space-tenunits);
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: var(--dl-space-space-tenunits);
@@ -463,23 +464,49 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.home-navlink1 {
+  display: contents;
+}
 .home-logo {
   width: 150px;
   height: 150px;
   object-fit: cover;
+  transition: 0.3s;
   margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-logo:hover {
+  width: 150px;
+  height: 150px;
+  box-shadow: 5px 5px 10px 5px #000000;
+}
+.home-navlink2 {
+  display: contents;
 }
 .home-logo1 {
   width: 150px;
   height: 150px;
   object-fit: cover;
+  transition: 0.3s;
   margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-logo1:hover {
+  box-shadow: 5px 5px 10px 5px #000000;
+}
+.home-navlink3 {
+  display: contents;
 }
 .home-logo2 {
   width: 150px;
   height: 150px;
   object-fit: cover;
+  transition: 0.3s;
   margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-logo2:hover {
+  box-shadow: 5px 5px 10px 5px #000000;
 }
 .home-section-separator3 {
   width: 100%;
@@ -574,6 +601,11 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
+@media(max-width: 1200px) {
+  .home-cta-btn {
+    margin-right: 0px;
+  }
+}
 @media(max-width: 991px) {
   .home-hero {
     align-items: center;
@@ -591,6 +623,9 @@
   .home-text {
     text-align: center;
   }
+  .home-cta-btn {
+    margin-right: 0px;
+  }
   .home-image {
     width: 100%;
   }
@@ -600,6 +635,7 @@
 }
 @media(max-width: 767px) {
   .home-cta-btn {
+    margin-right: 0px;
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
   }
@@ -633,6 +669,9 @@
 @media(max-width: 479px) {
   .home-hero-text-container {
     width: 100%;
+  }
+  .home-cta-btn {
+    margin-right: 0px;
   }
   .home-card {
     width: 100%;
