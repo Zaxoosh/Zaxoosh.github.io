@@ -508,6 +508,14 @@
 .home-logo2:hover {
   box-shadow: 5px 5px 10px 5px #000000;
 }
+.home-logo-container1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .home-navlink4 {
   display: contents;
 }
@@ -520,6 +528,34 @@
   text-decoration: none;
 }
 .home-logo3:hover {
+  box-shadow: 5px 5px 10px 5px #000000;
+}
+.home-navlink5 {
+  display: contents;
+}
+.home-logo4 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-logo4:hover {
+  box-shadow: 5px 5px 10px 5px #000000;
+}
+.home-navlink6 {
+  display: contents;
+}
+.home-logo5 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+}
+.home-logo5:hover {
   box-shadow: 5px 5px 10px 5px #000000;
 }
 .home-section-separator3 {
